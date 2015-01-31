@@ -1,0 +1,12 @@
+msc { 
+12d3e679,2f3b5500,562e5771,411fa9dd,1666453a,911d38e,3927ce5e,3d16e9d8,967e8c,724cb162,285876fe;
+
+2f3b5500=>12d3e679 [label="4-ackJoin", textcolor="red", linecolor="red"];
+12d3e679=>562e5771 [label="47-joinNW", textcolor="red", linecolor="red"];
+2f3b5500=>411fa9dd [label="8-ackJoin", textcolor="olive", linecolor="olive"];
+411fa9dd=>1666453a [label="40-joinNW", textcolor="olive", linecolor="olive"];
+3927ce5e=>911d38e [label="15-ackJoin", textcolor="black", linecolor="black"];
+911d38e=>3d16e9d8 [label="85-joinNW", textcolor="black", linecolor="black"];
+724cb162=>967e8c [label="16-ackJoin", textcolor="green", linecolor="green"];
+967e8c=>285876fe [label="76-joinNW", textcolor="green", linecolor="green"];
+}

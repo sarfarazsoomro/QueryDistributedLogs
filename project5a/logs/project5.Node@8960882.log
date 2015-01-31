@@ -1,0 +1,24 @@
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:1 | event:SEND | to/from:project5.Node@411fa9dd | msg:joinNW(project5.Node@8960882) | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:4 | event:RECEIVE | to/from:project5.Node@411fa9dd | msg:ackJoin(project5.routingTable@7bb2f811) | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:5 | event:SEND | to/from:project5.Node@411fa9dd | msg:joinedNW | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:8 | event:RECEIVE | to/from:project5.Node@411fa9dd | msg:joinedNWAck | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:9 | event:RECEIVE | to/from:scala.actors.ActorProxy@549e3065 | msg:joinNW(project5.Node@3927ce5e) | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:10 | event:SEND | to/from:project5.Node@3927ce5e | msg:ackJoin(project5.routingTable@e03bd6) | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:11 | event:RECEIVE | to/from:scala.actors.ActorProxy@549e3065 | msg:joinNW(project5.Node@5a84f3c) | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:12 | event:SEND | to/from:project5.Node@5a84f3c | msg:ackJoin(project5.routingTable@e03bd6) | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:15 | event:RECEIVE | to/from:project5.Node@5a84f3c | msg:joinedNW | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:16 | event:SEND | to/from:project5.Node@5a84f3c | msg:joinedNWAck | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:17 | event:RECEIVE | to/from:project5.Node@3927ce5e | msg:joinedNW | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@8960882 | ts:18 | event:SEND | to/from:project5.Node@3927ce5e | msg:joinedNWAck | desc:

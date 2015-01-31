@@ -1,0 +1,44 @@
+msc { 
+10000ccd,2c5d7ace,106f26bb,e18a9e8,10d42d49,285876fe,1182e445,7531f745,12d3e679,2f3b5500,142eda55,5a84f3c,15e6356d,597c3925,1632dfd4,282c1e2e,1666453a,411fa9dd,1785f0d;
+
+10000ccd=>2c5d7ace [label="1-joinNW", textcolor="maroon", linecolor="maroon"];
+2c5d7ace=>10000ccd [label="33-ackJoin", textcolor="maroon", linecolor="maroon"];
+10000ccd=>2c5d7ace [label="34-joinedNW", textcolor="maroon", linecolor="maroon"];
+2c5d7ace=>10000ccd [label="37-joinedNWAck", textcolor="maroon", linecolor="maroon"];
+106f26bb=>e18a9e8 [label="1-joinNW", textcolor="red", linecolor="red"];
+e18a9e8=>106f26bb [label="139-ackJoin", textcolor="red", linecolor="red"];
+106f26bb=>e18a9e8 [label="140-joinedNW", textcolor="red", linecolor="red"];
+e18a9e8=>106f26bb [label="145-joinedNWAck", textcolor="red", linecolor="red"];
+10d42d49=>285876fe [label="1-joinNW", textcolor="maroon", linecolor="maroon"];
+285876fe=>10d42d49 [label="99-ackJoin", textcolor="maroon", linecolor="maroon"];
+10d42d49=>285876fe [label="100-joinedNW", textcolor="maroon", linecolor="maroon"];
+285876fe=>10d42d49 [label="103-joinedNWAck", textcolor="maroon", linecolor="maroon"];
+1182e445=>7531f745 [label="1-joinNW", textcolor="aqua", linecolor="aqua"];
+7531f745=>1182e445 [label="24-ackJoin", textcolor="aqua", linecolor="aqua"];
+1182e445=>7531f745 [label="25-joinedNW", textcolor="aqua", linecolor="aqua"];
+7531f745=>1182e445 [label="38-joinedNWAck", textcolor="aqua", linecolor="aqua"];
+12d3e679=>2f3b5500 [label="1-joinNW", textcolor="olive", linecolor="olive"];
+2f3b5500=>12d3e679 [label="4-ackJoin", textcolor="olive", linecolor="olive"];
+12d3e679=>2f3b5500 [label="5-joinedNW", textcolor="olive", linecolor="olive"];
+2f3b5500=>12d3e679 [label="16-joinedNWAck", textcolor="olive", linecolor="olive"];
+142eda55=>5a84f3c [label="1-joinNW", textcolor="aqua", linecolor="aqua"];
+5a84f3c=>142eda55 [label="32-ackJoin", textcolor="aqua", linecolor="aqua"];
+142eda55=>5a84f3c [label="33-joinedNW", textcolor="aqua", linecolor="aqua"];
+5a84f3c=>142eda55 [label="36-joinedNWAck", textcolor="aqua", linecolor="aqua"];
+15e6356d=>597c3925 [label="1-joinNW", textcolor="maroon", linecolor="maroon"];
+597c3925=>15e6356d [label="121-ackJoin", textcolor="maroon", linecolor="maroon"];
+15e6356d=>597c3925 [label="122-joinedNW", textcolor="maroon", linecolor="maroon"];
+597c3925=>15e6356d [label="125-joinedNWAck", textcolor="maroon", linecolor="maroon"];
+1632dfd4=>282c1e2e [label="1-joinNW", textcolor="maroon", linecolor="maroon"];
+282c1e2e=>1632dfd4 [label="89-ackJoin", textcolor="maroon", linecolor="maroon"];
+1632dfd4=>282c1e2e [label="90-joinedNW", textcolor="maroon", linecolor="maroon"];
+282c1e2e=>1632dfd4 [label="97-joinedNWAck", textcolor="maroon", linecolor="maroon"];
+1666453a=>411fa9dd [label="1-joinNW", textcolor="maroon", linecolor="maroon"];
+411fa9dd=>1666453a [label="12-ackJoin", textcolor="maroon", linecolor="maroon"];
+1666453a=>411fa9dd [label="13-joinedNW", textcolor="maroon", linecolor="maroon"];
+411fa9dd=>1666453a [label="16-joinedNWAck", textcolor="maroon", linecolor="maroon"];
+1785f0d=>7531f745 [label="1-joinNW", textcolor="orange", linecolor="orange"];
+7531f745=>1785f0d [label="4-ackJoin", textcolor="orange", linecolor="orange"];
+1785f0d=>7531f745 [label="5-joinedNW", textcolor="orange", linecolor="orange"];
+7531f745=>1785f0d [label="8-joinedNWAck", textcolor="orange", linecolor="orange"];
+}

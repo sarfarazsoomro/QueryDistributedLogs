@@ -1,0 +1,24 @@
+msc { 
+10000ccd,2c5d7ace,1182e445,6d99723f,12d3e679,5632af89,1632dfd4,282c1e2e,1666453a,411fa9dd;
+
+2c5d7ace=>10000ccd [label="40-MsgMsg", textcolor="orange", linecolor="orange"];
+---;
+2c5d7ace=>10000ccd [label="42-MsgMsg", textcolor="gray", linecolor="gray"];
+---;
+6d99723f=>1182e445 [label="139-MsgMsg", textcolor="gray", linecolor="gray"];
+---;
+6d99723f=>1182e445 [label="141-MsgMsg", textcolor="red", linecolor="red"];
+---;
+5632af89=>12d3e679 [label="26-MsgMsg", textcolor="gray", linecolor="gray"];
+---;
+5632af89=>12d3e679 [label="29-MsgMsg", textcolor="olive", linecolor="olive"];
+---;
+282c1e2e=>1632dfd4 [label="99-MsgMsg", textcolor="orange", linecolor="orange"];
+---;
+282c1e2e=>1632dfd4 [label="112-MsgMsg", textcolor="red", linecolor="red"];
+---;
+411fa9dd=>1666453a [label="20-MsgMsg", textcolor="black", linecolor="black"];
+---;
+411fa9dd=>1666453a [label="22-MsgMsg", textcolor="green", linecolor="green"];
+---;
+}

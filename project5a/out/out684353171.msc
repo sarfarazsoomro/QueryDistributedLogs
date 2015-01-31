@@ -1,0 +1,24 @@
+msc { 
+10000ccd,2c5d7ace,142eda55,1182e445,6d99723f,12d3e679,5632af89,1632dfd4,282c1e2e,391416b3,1666453a,411fa9dd,18f048dc,6a8bda08,186b480a,1b347747,967e8c,3d16e9d8,47ec3263,285876fe,2d298123,298f89c9,689fda41;
+
+2c5d7ace=>10000ccd [label="40-MsgMsg", textcolor="aqua", linecolor="aqua"];
+10000ccd=>142eda55 [label="41-MsgDelivered", textcolor="aqua", linecolor="aqua"];
+6d99723f=>1182e445 [label="139-MsgMsg", textcolor="red", linecolor="red"];
+1182e445=>6d99723f [label="142-MsgDelivered", textcolor="red", linecolor="red"];
+5632af89=>12d3e679 [label="26-MsgMsg", textcolor="gray", linecolor="gray"];
+12d3e679=>5632af89 [label="27-MsgDelivered", textcolor="gray", linecolor="gray"];
+282c1e2e=>1632dfd4 [label="99-MsgMsg", textcolor="black", linecolor="black"];
+1632dfd4=>391416b3 [label="100-MsgDelivered", textcolor="black", linecolor="black"];
+411fa9dd=>1666453a [label="20-MsgMsg", textcolor="aqua", linecolor="aqua"];
+1666453a=>411fa9dd [label="21-MsgDelivered", textcolor="aqua", linecolor="aqua"];
+6a8bda08=>18f048dc [label="117-MsgMsg", textcolor="black", linecolor="black"];
+18f048dc=>186b480a [label="134-MsgDelivered", textcolor="black", linecolor="black"];
+967e8c=>1b347747 [label="56-MsgMsg", textcolor="gray", linecolor="gray"];
+1b347747=>12d3e679 [label="57-MsgDelivered", textcolor="gray", linecolor="gray"];
+3d16e9d8=>282c1e2e [label="50-MsgMsg", textcolor="aqua", linecolor="aqua"];
+282c1e2e=>47ec3263 [label="51-MsgDelivered", textcolor="aqua", linecolor="aqua"];
+967e8c=>285876fe [label="60-MsgMsg", textcolor="maroon", linecolor="maroon"];
+285876fe=>2d298123 [label="61-MsgDelivered", textcolor="maroon", linecolor="maroon"];
+689fda41=>298f89c9 [label="99-MsgMsg", textcolor="maroon", linecolor="maroon"];
+298f89c9=>689fda41 [label="100-MsgDelivered", textcolor="maroon", linecolor="maroon"];
+}

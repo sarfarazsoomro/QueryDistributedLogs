@@ -1,0 +1,8 @@
+Dec 14, 2012 11:01:01 AM project5.ActorLogger$class log
+INFO: id:project5.Node@553fd068 | ts:1 | event:SEND | to/from:project5.Node@76737f58 | msg:joinNW(project5.Node@553fd068) | desc:
+Dec 14, 2012 11:01:01 AM project5.ActorLogger$class log
+INFO: id:project5.Node@553fd068 | ts:72 | event:RECEIVE | to/from:project5.Node@76737f58 | msg:ackJoin(project5.routingTable@39779de) | desc:
+Dec 14, 2012 11:01:01 AM project5.ActorLogger$class log
+INFO: id:project5.Node@553fd068 | ts:73 | event:SEND | to/from:project5.Node@76737f58 | msg:joinedNW | desc:
+Dec 14, 2012 11:01:02 AM project5.ActorLogger$class log
+INFO: id:project5.Node@553fd068 | ts:76 | event:RECEIVE | to/from:project5.Node@76737f58 | msg:joinedNWAck | desc:

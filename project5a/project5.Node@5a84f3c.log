@@ -1,0 +1,32 @@
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:1 | event:SEND | to/from:project5.Node@8960882 | msg:joinNW(project5.Node@5a84f3c) | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:13 | event:RECEIVE | to/from:project5.Node@8960882 | msg:ackJoin(project5.routingTable@e03bd6) | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:14 | event:SEND | to/from:project5.Node@8960882 | msg:joinedNW | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:17 | event:RECEIVE | to/from:project5.Node@8960882 | msg:joinedNWAck | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:18 | event:RECEIVE | to/from:scala.actors.ActorProxy@549e3065 | msg:joinNW(project5.Node@5bbeffcd) | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:19 | event:SEND | to/from:project5.Node@5bbeffcd | msg:ackJoin(project5.routingTable@7958e458) | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:22 | event:RECEIVE | to/from:project5.Node@5bbeffcd | msg:joinedNW | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:23 | event:SEND | to/from:project5.Node@5bbeffcd | msg:joinedNWAck | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:24 | event:RECEIVE | to/from:scala.actors.ActorProxy@549e3065 | msg:joinNW(project5.Node@2c5d7ace) | desc:
+Dec 14, 2012 11:01:00 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:25 | event:SEND | to/from:project5.Node@2c5d7ace | msg:ackJoin(project5.routingTable@7958e458) | desc:
+Dec 14, 2012 11:01:01 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:28 | event:RECEIVE | to/from:project5.Node@2c5d7ace | msg:joinedNW | desc:
+Dec 14, 2012 11:01:01 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:29 | event:SEND | to/from:project5.Node@2c5d7ace | msg:joinedNWAck | desc:
+Dec 14, 2012 11:01:02 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:30 | event:RECEIVE | to/from:scala.actors.ActorProxy@549e3065 | msg:joinNW(project5.Node@142eda55) | desc:
+Dec 14, 2012 11:01:02 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:31 | event:SEND | to/from:project5.Node@142eda55 | msg:ackJoin(project5.routingTable@7958e458) | desc:
+Dec 14, 2012 11:01:02 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:34 | event:RECEIVE | to/from:project5.Node@142eda55 | msg:joinedNW | desc:
+Dec 14, 2012 11:01:02 AM project5.ActorLogger$class log
+INFO: id:project5.Node@5a84f3c | ts:35 | event:SEND | to/from:project5.Node@142eda55 | msg:joinedNWAck | desc:

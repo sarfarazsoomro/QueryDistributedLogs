@@ -1,0 +1,50 @@
+joinNW> >ackJoin joinedNW> >joinedNWAck ;o,ni|joinNW> >ackJoin joinedNW> >joinedNWAck ;o,ni
+
+change the other part to no, i so it's more flexible
+
+joinNW> >ackJoin joinedNW> >joinedNWAck ;o,ni|joinNW> >ackJoin joinedNW> >joinedNWAck ;no,i
+
+what we can conclude from this queries result is that
+1) the second query element exposes a potential error in application
+2) For eg. A node shouldn't receive ackJoin Msg before it sends out a joinNW msg
+3) Another potential error we can see from this diag is that a node should receive ackJoin from the node to which it sent joinNW msg
+
+limiting the number of search results per query element? so it's easier to view
+
+running the below query can help us pin point many such errors as above but it may return large number of results, so we would 
+
+like to limit the number of matches to n(first n matches)
+
+limit per execUnit
+>MsgMsg ;l1
+Otherwise the above would be undrawable
+global limit
+>MsgMsg ;l1 $l10
+
+limit on the entire system:
+joinNW> >ackJoin joinedNW> >joinedNWAck ;no,i 
+above returns a lot of results but we can limit the number of matches on global scale as well
+joinNW> >ackJoin joinedNW> >joinedNWAck ;no,i $l10
+
+here we see that a node receive ackJoin first and sends out joinNW later, which is erratic, we would like to see if there are 
+other nodes acting the same way so design the following query
+
+we enforce ordering, but let there be interleaving of other msgs
+
+>ackJoin joinNW> ;o,i $l10
+using the above query we also find more such erroneous cases where ackJoin is received prior to joinNW
+
+more on limits, diff b/w limit on exec unit and global limit
+============================================================
+a query element may be satisfied more than once in an exec. unit, this may result in large number of matches per exec. unit,
+while we may want to examine matches accross different exec units, that's where both these options work together to make
+it easy to see limited number of matches but also from variety of nodes, the following example illustrates this
+
+>MsgMsg MsgDelivered> ;o,i,l1 $l10
+
+an example with 3 query elements
+================================
+joinNW> >ackJoin joinedNW> >joinedNWAck ;o,ni| MsgMsg> | >MsgDelivered $l10
+
+
+blocking msgs detection using interleaving

@@ -1,0 +1,7 @@
+msc { 
+3890c1ee,391416b3,3d16e9d8;
+
+3890c1ee=>391416b3 [label="96-MsgMsg", textcolor="maroon", linecolor="maroon"];
+3d16e9d8=>391416b3 [label="102-ackJoin", textcolor="maroon", linecolor="maroon"];
+---;
+}

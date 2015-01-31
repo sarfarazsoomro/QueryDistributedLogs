@@ -1,0 +1,13 @@
+msc { 
+8960882,411fa9dd,2f3b5500,1666453a;
+
+8960882=>411fa9dd [label="1-joinNW", textcolor="olive", linecolor="olive"];
+411fa9dd=>8960882 [label="4-ackJoin", textcolor="olive", linecolor="olive"];
+8960882=>411fa9dd [label="5-joinedNW", textcolor="olive", linecolor="olive"];
+411fa9dd=>8960882 [label="8-joinedNWAck", textcolor="olive", linecolor="olive"];
+2f3b5500=>411fa9dd [label="8-ackJoin", textcolor="olive", linecolor="olive"];
+411fa9dd=>2f3b5500 [label="9-joinedNW", textcolor="olive", linecolor="olive"];
+2f3b5500=>411fa9dd [label="18-joinedNWAck", textcolor="olive", linecolor="olive"];
+411fa9dd=>1666453a [label="40-joinNW", textcolor="olive", linecolor="olive"];
+---;
+}
